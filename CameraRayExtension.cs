@@ -32,7 +32,7 @@ public static class CameraRayExtension
         sPos.Z = 1f;
         var vectorFar = Vector3.Transform(sPos, invViewProj);
         vectorFar /= vectorFar.W;
-
+        
         // Raycast from the point on the near plane to the point on the far plane and get the collision result
         return component.GetSimulation().Raycast(vectorNear.XYZ(), vectorFar.XYZ(), groups);
     }

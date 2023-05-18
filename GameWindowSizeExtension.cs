@@ -1,4 +1,5 @@
 ﻿using Stride.Core.Mathematics;
+using Stride.Games;
 using Stride.Graphics;
 
 namespace NexCoreExtension;
