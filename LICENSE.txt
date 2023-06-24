@@ -1,3 +1,5 @@
+The mouse raycast is from the Official Docs of Stride Engine and is MIT Licensed
+
 MIT License
 
 Copyright (c) 2023-current year nexstandard/IXLLEGACYIXL ( yfons@gmail.com )
